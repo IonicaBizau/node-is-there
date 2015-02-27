@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:IonicaBizau/node-isthere.git"
+    "url": "git@github.com:IonicaBizau/node-is-there.git"
   },
   "keywords": [
     "fs",
@@ -22,7 +22,7 @@
   "author": "Ionică Bizău <bizauionica@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/IonicaBizau/node-isthere/issues"
+    "url": "https://github.com/IonicaBizau/node-is-there/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/node-isthere"
+  "homepage": "https://github.com/IonicaBizau/node-is-there"
 }
