@@ -1,0 +1,28 @@
+{
+  "name": "is-there",
+  "version": "1.0.0",
+  "description": "A library to check if a file or directory exists in a given path.",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IonicaBizau/node-isthere.git"
+  },
+  "keywords": [
+    "fs",
+    "exists",
+    "file",
+    "directory"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/node-isthere/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/node-isthere"
+}
