@@ -32,7 +32,7 @@ IsThere("path/to/the/file/or/directory", function (exists) {
 });
 
 // Sync call
-var exists = IsThere("path/to/the/file/or/directory")
+var exists = IsThere("path/to/the/file/or/directory");
 if (exists) {
     // do something if it exists
 } else {
@@ -51,7 +51,7 @@ Checks if a file or directory exists on given path.
 #### Return
 - **IsThere** The `IsThere` function.
 
-### `sync(path)`
+### `IsThere(path)`
 The sync version of `IsThere`.
 
 #### Params

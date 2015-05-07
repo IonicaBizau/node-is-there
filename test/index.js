@@ -23,7 +23,7 @@ var paths = [
 // Sync
 console.log("> Testing sync method.");
 paths.forEach(function (c) {
-    console.log("> %s %s", c, IsThere.sync(c) ? "exists" : "doesn't exist");
+    console.log("> %s %s", c, IsThere(c) ? "exists" : "doesn't exist");
 });
 
 
