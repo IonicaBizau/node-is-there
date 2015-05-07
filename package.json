@@ -20,6 +20,7 @@
     "directory"
   ],
   "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "contributors": ["Kevin Harrison <keharriso@gmail.com>"],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/node-is-there/issues"
