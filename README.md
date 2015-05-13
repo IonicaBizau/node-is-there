@@ -31,7 +31,7 @@ IsThere("path/to/the/file/or/directory", function (exists) {
     }
 });
 
-// Sync call
+// Sync call (without providing the callback function)
 var exists = IsThere("path/to/the/file/or/directory");
 if (exists) {
     // do something if it exists
@@ -46,20 +46,12 @@ Checks if a file or directory exists on given path.
 
 #### Params
 - **String** `path`: The path to the file or directory.
-- **Function** `callback`: The callback function called with a boolean value representing if the file or directory exists.
+- **Function** `callback`: The callback function called with a boolean value representing if the file or directory exists. If this parameter is not a
+function, the function will run the synchronously and return the value.
 
 #### Return
-- **IsThere** The `IsThere` function.
-
-### `IsThere(path)`
-The sync version of `IsThere`.
-
-#### Params
-- **String** `path`: The path to the file or directory.
-
-#### Return
-- **Boolean** A boolean value representing if the file or directory exists.
-
+- **IsThere|Boolean** The `IsThere` function if the `callback` parameter was provided, otherwise a boolean value indicating if the file/directory
+exists or not.
 
 ## How to contribute
 1. File an issue in the repository, using the bug tracker, describing the
