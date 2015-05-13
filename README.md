@@ -1,7 +1,7 @@
 ![](http://i.imgur.com/ZHzpvvE.png)
 
 # is-there
-A library to check if a file or directory exists in a given path.
+Check if a file or directory exists in a given path.
 
 ## Why? `fs.exists` already does the job!
 Because `fs.exists` and `fs.existsSync` will be deprecated and I still like and need them!

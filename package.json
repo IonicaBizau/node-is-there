@@ -1,7 +1,7 @@
 {
   "name": "is-there",
   "version": "2.0.0",
-  "description": "A library to check if a file or directory exists in a given path.",
+  "description": "Check if a file or directory exists in a given path.",
   "main": "lib/index.js",
   "directories": {
     "example": "example",
