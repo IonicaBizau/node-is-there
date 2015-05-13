@@ -4,7 +4,8 @@
   "description": "A library to check if a file or directory exists in a given path.",
   "main": "lib/index.js",
   "directories": {
-    "example": "example"
+    "example": "example",
+    "test": "test"
   },
   "scripts": {
     "test": "mocha test"
@@ -27,5 +28,9 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/node-is-there/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/node-is-there"
+  "homepage": "https://github.com/IonicaBizau/node-is-there",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  }
 }
