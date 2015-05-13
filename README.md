@@ -1,3 +1,5 @@
+![](http://i.imgur.com/ZHzpvvE.png)
+
 # is-there
 A library to check if a file or directory exists in a given path.
 
