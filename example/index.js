@@ -7,7 +7,6 @@ var paths = [
     "dir"
   , "dir/another"
   , "dir/another/file"
-  , "dir/emptydir"
   , "dir/file"
   , "file"
   , "file.ext"
