@@ -13,11 +13,35 @@
 <!-- * * * Thanks! * * *                                                    -->
 <!---------------------------------------------------------------------------->
 
-![is-there](http://i.imgur.com/ZHzpvvE.png)
 
-# is-there [![Donate now][donate-now]][paypal-donations]
+<% // Dependencies %>
+<% var IsThere = require("is-there"); %>
+<% var Fs = require("fs"); %>
+<% var Path = require("path"); %>
+<% var Ul = require("ul"); %>
 
-Check if a file or directory exists in a given path.
+<% // Compute the directory paths %>
+<% var binPath = Path.join(_.path, "bin"); %>
+<% var examplesPath = Path.join(_.path, "examples"); %>
+<% var examplePath = Path.join(_.path, "example"); %>
+<% var example = IsThere(examplePath) ? examplePath : IsThere(examplesPath) ? examplesPath : null; %>
+<% var isCli = IsThere(binPath); %>
+
+<% if (_.pack.blah.h_img) { %>
+![<%= _.pack.name %>](<%= _.pack.blah.h_img %>)
+<% } %>
+
+<% // Create the name and description %>
+<% if (isCli) { %>
+# `$ <%= _.pack.name %>` [![Donate now][donate-now]][paypal-donations]
+<% } else { %>
+# <%= _.pack.name %> [![Donate now][donate-now]][paypal-donations]
+<% } %>
+<%= _.pack.description %>
+
+<% if (_.pack.blah.ex_img) { %>
+![<%= _.pack.name %>](<%=_.pack.blah.ex_img %>)
+<% } %>
 
 ## Why? `fs.exists` already does the job!
 Because `fs.exists` and `fs.existsSync` will be deprecated and I still like and need them!
@@ -30,78 +54,69 @@ Because `fs.exists` and `fs.existsSync` will be deprecated and I still like and 
 
 > <sup>([Source](http://nodejs.org/api/fs.html#fs_fs_exists_path_callback), emphasis added)</sup>
 
+
+<% // INSTALLATION %>
 ## Installation
 
 ```sh
-$ npm i is-there
+$ npm i <%= _.pack.name %>
 ```
 
+<% // Cli usage %>
+<% if (isCli) { %>
+### CLI Usage
+You can install the package globally and use it as command line tool:
+
+```sh
+$ npm i -g <%= _.pack.name %>
+```
+
+Then, run `<%= _.pack.name %> --help` and see what the cli tool can do.
+
+<% } %>
+
+<% // Show the example if there is one %>
+<% if (example) { %>
+<% var exStrPath = Path.join(example, "index.js"); %>
+<% if (!IsThere(exStrPath)) { %>
+<%   example = null; %>
+<% } %>
+<% if (example) { %>
 ## Example
 
+<% if (isCli) { %>
+Here is an example how to use this package as library.
+<% } %>
+
+<% var exStr = Fs.readFileSync(exStrPath, "utf-8"); %>
+<% exStr = exStr.replace("../lib", _.pack.name) %>
+
 ```js
-// Dependencies
-var IsThere = require("is-there");
-
-// Paths to test
-var paths = [
-    // exist
-    "dir"
-  , "dir/another"
-  , "dir/another/file"
-  , "dir/file"
-  , "file"
-  , "file.ext"
-    // don't exist
-  , "foo"
-  , "foo/bar"
-  , "foo.bar"
-  , "foo/bar.foo"
-].map(function (c) {
-    return __dirname + "/contents/" + c;
-});
-
-// Sync
-console.log("> Testing sync method.");
-paths.forEach(function (c) {
-    console.log("> %s %s", c, IsThere(c) ? "exists" : "doesn't exist");
-});
-
-console.log("> Testing async method.");
-function doSeq(i) {
-    i = i || 0;
-    var cPath = paths[i];
-    if (!cPath) { return; }
-    IsThere(cPath, function (exists) {
-        console.log("> %s %s", cPath, exists ? "exists" : "doesn't exist");
-        doSeq(i + 1);
-    });
-}
-
-doSeq();
-
+<%- exStr %>
 ```
+<% } %>
+<% } %>
 
+<% // Documentation %>
 ## Documentation
 
-### `IsThere(path, callback)`
-Checks if a file or directory exists on given path.
+<% if (isCli) { %>
+For full API reference, see the [DOCUMENTATION.md][docs] file.
+<% } else { %>
+<% docs = docs.split("\n").slice(3).join("\n"); %>
+<%= docs %>
+<% } %>
 
-#### Params
-- **String** `path`: The path to the file or directory.
-- **Function** `callback`: The callback function called with a boolean value representing if the file or directory exists. If this parameter is not a
-function, the function will run the synchronously and return the value.
-
-#### Return
-- **IsThere|Boolean** The `IsThere` function if the `callback` parameter was provided, otherwise a boolean value indicating if the file/directory
-exists or not.
-
+<% // How to contribute %>
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
+<% // License information %>
 ## License
 [KINDLY][license] © [Ionică Bizău][website]–The [LICENSE](/LICENSE) file contains
 a copy of the license.
 
+<% // Links %>
 [license]: http://ionicabizau.github.io/kindly-license/?author=Ionic%C4%83%20Biz%C4%83u%20%3Cbizauionica@gmail.com%3E&year=2015
 [contributing]: /CONTRIBUTING.md
 [website]: http://ionicabizau.net
