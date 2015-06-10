@@ -34,6 +34,6 @@
     "mocha": "^2.2.4"
   },
   "blah": {
-      "h_img": "http://i.imgur.com/ZHzpvvE.png"
+    "h_img": "http://i.imgur.com/ZHzpvvE.png"
   }
 }
