@@ -1,9 +1,10 @@
 [![is-there](http://i.imgur.com/ZHzpvvE.png)](#)
 
 # is-there [![Support this project][donate-now]][paypal-donations]
+
 Check if a file or directory exists in a given path.
 
-## ## Why? `fs.exists` already does the job!
+## Why? `fs.exists` already does the job!
 
 Because `fs.exists` and `fs.existsSync` ~~will be~~ are deprecated and in some cases we still need them!
 
@@ -106,7 +107,13 @@ If you are using this library in one of your projects, add it in this list. :spa
 
  - [`generator-catena`](https://github.com/damirkusar/catena-generator#readme) by Damir Kusar
 
+ - [`generator-catena-angular-meteor-material`](https://github.com/damirkusar/catena-generator#readme) by Damir Kusar
+
  - [`generator-leptir`](https://github.com/damirkusar/leptir-generator#readme) by Damir Kusar
+
+ - [`generator-leptir-angular-bootstrap`](https://github.com/damirkusar/generator-leptir-angular-bootstrap#readme) by Damir Kusar
+
+ - [`generator-leptir-angular-material`](https://github.com/damirkusar/generator-leptir-angular-material#readme) by Damir Kusar
 
  - [`gif-cli`](https://github.com/IonicaBizau/gif-cli)
 
