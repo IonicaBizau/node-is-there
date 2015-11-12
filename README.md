@@ -129,7 +129,7 @@ If you are using this library in one of your projects, add it in this list. :spa
 
  - [`grunt-md5symlink`](https://github.com/p1100i/grunt-md5symlink) by peters
 
- - [`hal-rc`](https://github.com/orlin/hal-rc#readme)
+ - [`hal-rc`](https://github.com/gulpsome/hal-rc#readme)
 
  - [`heroku-docker`](https://github.com/heroku/heroku-docker#readme) by Hunter Loftis
 
