@@ -16,7 +16,7 @@ Because `fs.exists` and `fs.existsSync` ~~will be~~ are deprecated and in some c
 ## Installation
 
 ```sh
-$ npm i is-there
+$ npm i --save is-there
 ```
 
 ## Example
@@ -105,7 +105,11 @@ If you are using this library in one of your projects, add it in this list. :spa
 
  - [`fwatcher`](https://github.com/IonicaBizau/node-fwatcher)
 
+ - [`generator-arwen`](https://github.com/jasonvillalon/generator-arwen) by Jason Villalon
+
  - [`generator-catena`](https://github.com/damirkusar/catena-generator#readme) by Damir Kusar
+
+ - [`generator-catena-angular-meteor-bootstrap`](https://github.com/damirkusar/generator-catena-angular-meteor-bootstrap#readme) by Damir Kusar
 
  - [`generator-catena-angular-meteor-material`](https://github.com/damirkusar/catena-generator#readme) by Damir Kusar
 
@@ -123,7 +127,7 @@ If you are using this library in one of your projects, add it in this list. :spa
 
  - [`git-stats-importer`](https://github.com/IonicaBizau/git-stats-importer)
 
- - [`gpm`](https://github.com/IonicaBizau/node-gpm)
+ - [`gpm`](https://github.com/IonicaBizau/gpm)
 
  - [`grunt-md5assets`](https://github.com/p1100i/grunt-md5assets) by peters
 
@@ -136,6 +140,8 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`idea`](https://github.com/IonicaBizau/idea)
 
  - [`jisc_build`](https://github.com/gooii/jisc_build#readme) by Martin Wood-Mitrovski
+
+ - [`le-serf`](https://github.com/le-serf/le-serf#readme) by Nathan McCallum
 
  - [`low-cli`](https://github.com/lowjs/low-cli#readme) by Jeremy Rylan
 
@@ -171,13 +177,12 @@ If you are using this library in one of your projects, add it in this list. :spa
 
 ## License
 
-[KINDLY][license] © [Ionică Bizău][website]
+[MIT][license] © [Ionică Bizău][website]
 
-[license]: http://ionicabizau.github.io/kindly-license/?author=Ionic%C4%83%20Biz%C4%83u%20%3Cbizauionica@gmail.com%3E&year=2015
-
-[website]: http://ionicabizau.net
 [paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
 [donate-now]: http://i.imgur.com/6cMbHOC.png
 
+[license]: http://showalicense.com/?fullname=Ionic%C4%83%20Biz%C4%83u%20%3Cbizauionica%40gmail.com%3E%20(http%3A%2F%2Fionicabizau.net)&year=2015#license-mit
+[website]: http://ionicabizau.net
 [contributing]: /CONTRIBUTING.md
 [docs]: /DOCUMENTATION.md

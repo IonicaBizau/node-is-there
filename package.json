@@ -1,6 +1,6 @@
 {
   "name": "is-there",
-  "version": "4.2.0",
+  "version": "4.3.0",
   "description": "Check if a file or directory exists in a given path.",
   "main": "lib/index.js",
   "directories": {
@@ -24,7 +24,7 @@
   "contributors": [
     "Kevin Harrison <keharriso@gmail.com>"
   ],
-  "license": "KINDLY",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/node-is-there/issues"
   },
