@@ -1,8 +1,8 @@
 [![is-there](http://i.imgur.com/ZHzpvvE.png)](#)
 
-# is-there [![Support this project][donate-now]][paypal-donations]
+# is-there [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Travis](https://img.shields.io/travis/IonicaBizau/node-is-there.svg)](https://travis-ci.org/IonicaBizau/node-is-there/) [![Version](https://img.shields.io/npm/v/is-there.svg)](https://www.npmjs.com/package/is-there) [![Downloads](https://img.shields.io/npm/dt/is-there.svg)](https://www.npmjs.com/package/is-there) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
-Check if a file or directory exists in a given path.
+> Check if a file or directory exists in a given path.
 
 ## Why? `fs.exists` already does the job!
 
@@ -91,6 +91,8 @@ If you are using this library in one of your projects, add it in this list. :spa
 
  - [`blah`](https://github.com/IonicaBizau/blah)
 
+ - [`bowerrc`](https://github.com/mithun/bowerrc#readme) by Mithun Ayachit
+
  - [`cdnjs-importer`](https://github.com/cdnjs/cdnjs-importer)
 
  - [`cecil`](https://github.com/MikeyBurkman/Cecil) by Michael Burkman
@@ -164,6 +166,8 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`singular_sake`](https://npmjs.com/package/singular_sake) by Juan Castro Fernández
 
  - [`sourcegate`](https://github.com/orlin/sourcegate#readme) by Orlin M Bozhinov
+
+ - [`sp-load`](https://github.com/pavel06081991/sp-load#readme) by pavel06081991
 
  - [`tithe`](https://github.com/IonicaBizau/tithe)
 
