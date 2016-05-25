@@ -1,7 +1,9 @@
 
 [![is-there](http://i.imgur.com/ZHzpvvE.png)](#)
 
-# is-there [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Travis](https://img.shields.io/travis/IonicaBizau/node-is-there.svg)](https://travis-ci.org/IonicaBizau/node-is-there/) [![Version](https://img.shields.io/npm/v/is-there.svg)](https://www.npmjs.com/package/is-there) [![Downloads](https://img.shields.io/npm/dt/is-there.svg)](https://www.npmjs.com/package/is-there) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+# is-there
+
+ [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Travis](https://img.shields.io/travis/IonicaBizau/node-is-there.svg)](https://travis-ci.org/IonicaBizau/node-is-there/) [![Version](https://img.shields.io/npm/v/is-there.svg)](https://www.npmjs.com/package/is-there) [![Downloads](https://img.shields.io/npm/dt/is-there.svg)](https://www.npmjs.com/package/is-there) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Check if a file or directory exists in a given path.
 
@@ -94,7 +96,9 @@ If you are using this library in one of your projects, add it in this list. :spa
 
 
  - [`a-csv`](https://github.com/jillix/a-csv) (by jillix)—A lightweight CSV parser.
+ - [`ali-oss-extra`](https://github.com/jackytck/ali-oss-extra#readme) (by Jacky Tang)—Extend the official ali-oss with more convenient methods, such as listing, syncing a directory, put or delete a list of files etc.
  - [`artstack-downloader`](https://github.com/IonicaBizau/artstack-downloader)—Download artworks from your following users.
+ - [`be-goods`](https://github.com/gulpsome/be-goods#readme) (by Orlin M Bozhinov)—let there be beverage goods
  - [`bible`](https://github.com/BibleJS/BibleApp)—Read the Holy Bible via the command line.
  - [`blah`](https://github.com/IonicaBizau/blah)—A command line tool to optimize the repetitive actions.
  - [`bowerrc`](https://github.com/mithun/bowerrc#readme) (by Mithun Ayachit)—Switch between different .bowerrc files
@@ -135,12 +139,14 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`le-serf`](https://github.com/1vasari/le-serf#readme) (by Nathan McCallum)—Your trusty assistant in your Lacuna Expanse misadventures!
  - [`low-cli`](https://github.com/lowjs/low-cli#readme) (by Jeremy Rylan)—undefined
  - [`matanza`](https://github.com/fredybawa/matanza#readme) (by Alfredo Monteiro)—Matanza =======
+ - [`memories`](https://github.com/data-doge/memories#readme) (by data-doge)—cli for a timestamped markdown journal
  - [`node-dynamo`](https://github.com/louislarry/node-dynamo#readme) (by Louis Larry)—Easily create and recreate dynamodb tables and sample data. This package provides the cli and sdk.
  - [`node-sass-json-importer`](https://github.com/Updater/node-sass-json-importer#readme)—Allows importing json in sass files parsed by node-sass.
  - [`npm-interlink`](https://github.com/orlin/npm-interlink#readme) (by Orlin M Bozhinov)—because `npm link ...` can be tedious
  - [`panes`](https://github.com/joelchu/panes#readme) (by Joel Chu)—PANES.JS core lib and cli http://panesjs.com
  - [`parent-search`](https://github.com/IonicaBizau/node-parent-search)—Search files and folders in parent directories.
  - [`payname`](https://npmjs.com/package/payname) (by Florian CHEVALLIER)—Module nodejs permettant d'intégrer Payname à vos projets
+ - [`pollinate`](http://github.com/howardroark/pollinate) (by howardroark)—Generate a new project directly from Git(Hub) using a simple schema.
  - [`ramda-cli`](https://github.com/raine/ramda-cli#readme) (by Raine Virta)—A command-line tool for processing JSON with Ramda and LiveScript
  - [`reindex-cli`](https://github.com/reindexio/reindex-cli#readme) (by Reindex)—CLI interface for Reindex
  - [`singular_sake`](https://npmjs.com/package/singular_sake) (by Juan Castro Fernández)—Singular MVC PHP Framework command line tool
