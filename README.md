@@ -74,17 +74,40 @@ doSeq();
 ## :memo: Documentation
 
 
-### `IsThere(path, callback)`
+### `isThere(path, callback)`
 Checks if a file or directory exists on given path.
+Use without the new keyword.
 
 #### Params
 - **String** `path`: The path to the file or directory.
 - **Function** `callback`: The callback function called with a boolean value representing if the file or directory exists. If this parameter is not a
-function, the function will run the synchronously and return the value.
+function, the function will run synchronously and return the value.
 
 #### Return
-- **IsThere|Boolean** The `IsThere` function if the `callback` parameter was provided, otherwise a boolean value indicating if the file/directory
+- **isThere|Boolean** The `isThere` function if the `callback` parameter was provided, otherwise a boolean value indicating if the file/directory
 exists or not.
+
+### `directory(path, callback)`
+Checks if the path exists and it is a directory.
+
+#### Params
+- **String** `path`: The path to the directory.
+- **Function** `callback`: The callback function called with a boolean value representing if the directory exists. If this parameter is not a
+function, the function will run synchronously and return the value.
+
+#### Return
+- **isThere|Boolean** The `isThere` function if the `callback` parameter was provided, otherwise a boolean value indicating if the directory exists or not.
+
+### `file(path, callback)`
+Check if the path exists and it is a file.
+
+#### Params
+- **String** `path`: The path to the file.
+- **Function** `callback`: The callback function called with a boolean value representing if the file exists. If this parameter is not a
+function, the function will run synchronously and return the value.
+
+#### Return
+- **isThere|Boolean** The `isThere` function if the `callback` parameter was provided, otherwise a boolean value indicating if the file exists or not.
 
 
 
@@ -108,16 +131,18 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`a-csv`](https://github.com/jillix/a-csv) (by jillix)—A lightweight CSV parser.
  - [`ajs`](https://github.com/IonicaBizau/ajs#readme)—Asynchronous templating in Node.js
  - [`ali-oss-extra`](https://github.com/jackytck/ali-oss-extra#readme) (by Jacky Tang)—Extend the official ali-oss with more convenient methods, such as listing, syncing or deleting a directory, put or delete a list of files etc.
+ - [`app-framework`](https://github.com/scriptPilot/app-framework#readme)—Does all the tricky stuff for you to develop, test, build and deploy iOS and Android like web applications.
  - [`artstack-downloader`](https://github.com/IonicaBizau/artstack-downloader)—Download artworks from your following users.
  - [`be-goods`](https://github.com/gulpsome/be-goods#readme) (by Orlin M Bozhinov)—let there be beverage goods
  - [`better-history`](https://github.com/jiacai2050/better-history) (by Jiacai Liu)—💡 Get a better sense of browsing history via Chrome/Firefox
  - [`bible`](https://github.com/BibleJS/BibleApp)—Read the Holy Bible via the command line.
  - [`blah`](https://github.com/IonicaBizau/blah)—A command line tool to optimize the repetitive actions.
+ - [`bower-license-webpack-plugin`](https://github.com/blattmann/bower-license-webpack-plugin#readme) (by S K)—Outputs licenses from 3rd party libraries to a file
  - [`bowerrc`](https://github.com/mithun/bowerrc#readme) (by Mithun Ayachit)—Switch between different .bowerrc files
  - [`caipi`](https://github.com/CaipiLabs/caipi#readme) (by Nathan Braun)—Caipi reactor - Isomorphic CMS based on ES6+React+webpack+mongo+etc
  - [`cdnjs-importer`](https://github.com/cdnjs/cdnjs-importer)—Easy way to import a library into CDNJS.
  - [`cecil`](https://github.com/MikeyBurkman/Cecil#readme) (by Michael Burkman)—For running single-file NodeJS scripts with external dependencies
- - [`confetti-cli`](https://github.com/andreamangano/confetti-cli#readme) (by Andrea Mangano)—Command line interface for Confetti.
+ - [`confetti-cli`](https://github.com/andreamangano/confetti-cli#readme) (by Andrea Mangano)—Command line interface for Confetti, a tool for enriching your online slide decks.
  - [`emartech-node-sass-json-importer`](https://github.com/emartech/node-sass-json-importer#readme)—Allows importing json in sass files parsed by node-sass.
  - [`engine-app`](https://github.com/jillix/engine-app#readme) (by jillix)—Engine app related helper functions.
  - [`engine-composition-crud`](https://github.com/jillix/engine-composition-crud#readme) (by jillix)—The default module for creating, reading, updating and deleting Engine instances.
@@ -149,14 +174,16 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`heroku-container-registry`](https://github.com/heroku/heroku-container-registry#readme) (by Hunter Loftis)—Use containers to build and deploy Heroku apps
  - [`heroku-container-tools`](https://github.com/heroku/heroku-container-tools#readme) (by Hunter Loftis)—Use containers to build and deploy Heroku apps
  - [`heroku-docker`](https://github.com/heroku/heroku-container-tools#readme) (by Hunter Loftis)—DEPRECATED: use heroku-container-tools
+ - [`hg-plus`](https://github.com/jdalrymple/node-hg-plus#readme) (by Justin Dalrymple)—A Mercurial client for Node
  - [`idea`](https://github.com/IonicaBizau/idea)—A lightweight CLI tool and module for keeping ideas in a safe place quick and easy.
  - [`image-to-ascii-cli`](https://github.com/IonicaBizau/image-to-ascii-cli#readme)—View images in text format, in your terminal.
  - [`is-git-check`](https://npmjs.com/package/is-git-check) (by Dominik Winter)—Simple module to check whether a directory is a git repository or not
  - [`jisc_build`](https://github.com/gooii/jisc_build#readme) (by Martin Wood-Mitrovski)—Shared jisc build scripts and configuration for JJA and JHT
  - [`joomlascan`](https://github.com/robations/joomlascan#readme)—Searches paths for Joomla installations and outputs the installed version number.
  - [`kaomojify`](https://github.com/kokororin/kaomojify#readme) (by kokororin)—Kaomojify Javascript code
+ - [`kaomojify-webpack-plugin`](https://github.com/kokororin/kaomojify-webpack-plugin#readme) (by kokororin)—convert your built JavaScript code to Japanese kawaii kaomoji(かわいい顔文字)
+ - [`kotori-webpack-plugin`](https://github.com/kokororin/kotori-webpack-plugin#readme) (by kokororin)—Yet another webpack plugin
  - [`le-serf`](https://github.com/1vasari/le-serf#readme) (by Nathan McCallum)—Your trusty assistant in your Lacuna Expanse misadventures!
- - [`license-webpack-plugin`](https://github.com/xz64/license-webpack-plugin#readme) (by S K)—Outputs licenses from 3rd party libraries to a file
  - [`low-cli`](https://github.com/lowjs/low-cli#readme) (by Jeremy Rylan)—undefined
  - [`matanza`](https://github.com/fredybawa/matanza#readme) (by Alfredo Monteiro)—Matanza =======
  - [`memories`](https://github.com/data-doge/memories#readme) (by data-doge)—cli for a timestamped markdown journal
@@ -179,6 +206,7 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`unity-asset-sync`](https://npmjs.com/package/unity-asset-sync) (by Chris Jaynes)—Allows safe, effective sharing of code between Unity projects.
  - [`unity-link`](https://npmjs.com/package/unity-link) (by Chris Jaynes)—A utility for Unity developers to symlink scripts into their Assets folders. Useful for library development.
  - [`uturi-caching`](https://npmjs.com/package/uturi-caching)—undefined
+ - [`valkctl`](https://npmjs.com/package/valkctl)—simple command wrapper
  - [`valkyrja`](https://github.com/freialib/valkyrja#readme) (by srcspider)—the deploy tool
  - [`vimhelp`](https://github.com/thinca/node-vimhelp) (by thinca)—Show vim help.
  - [`viur-ignite-css`](http://ignite.viur.is) (by VIUR)—Core of VIUR Ignite - a less framework
