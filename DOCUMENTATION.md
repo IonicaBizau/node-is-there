@@ -2,7 +2,8 @@
 
 You can see below the API reference of this module.
 
-### `isThere(path, callback)`
+### isThere
+
 Checks if a file or directory exists on given path.
 Use without the new keyword.
 
