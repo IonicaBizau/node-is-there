@@ -1,6 +1,6 @@
 {
   "name": "is-there",
-  "version": "4.4.0",
+  "version": "4.4.1",
   "description": "Check if a file or directory exists in a given path.",
   "main": "lib/index.js",
   "directories": {
@@ -20,7 +20,7 @@
     "file",
     "directory"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "contributors": [
     "Kevin Harrison <keharriso@gmail.com>"
   ],
@@ -56,12 +56,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
