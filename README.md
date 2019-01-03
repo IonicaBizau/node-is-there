@@ -5,11 +5,14 @@
 
 # is-there
 
- [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Travis](https://img.shields.io/travis/IonicaBizau/node-is-there.svg)](https://travis-ci.org/IonicaBizau/node-is-there/) [![Version](https://img.shields.io/npm/v/is-there.svg)](https://www.npmjs.com/package/is-there) [![Downloads](https://img.shields.io/npm/dt/is-there.svg)](https://www.npmjs.com/package/is-there)
+ [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Travis](https://img.shields.io/travis/IonicaBizau/node-is-there.svg)](https://travis-ci.org/IonicaBizau/node-is-there/) [![Version](https://img.shields.io/npm/v/is-there.svg)](https://www.npmjs.com/package/is-there) [![Downloads](https://img.shields.io/npm/dt/is-there.svg)](https://www.npmjs.com/package/is-there) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+
+<a href="https://www.buymeacoffee.com/H96WwChMy" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee"></a>
 
 > Check if a file or directory exists in a given path.
 
 ## Why? `fs.exists` already does the job!
+
 
 Because `fs.exists` and `fs.existsSync` ~~will be~~ are deprecated and in some cases we still need them!
 
@@ -22,7 +25,11 @@ Because `fs.exists` and `fs.existsSync` ~~will be~~ are deprecated and in some c
 ## :cloud: Installation
 
 ```sh
-$ npm i --save is-there
+# Using npm
+npm install --save is-there
+
+# Using yarn
+yarn add is-there
 ```
 
 
@@ -81,7 +88,9 @@ There are few ways to get help:
 
  1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
  2. For bug reports and feature requests, open issues. :bug:
+
  3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
 
 
 ## :memo: Documentation
@@ -134,10 +143,11 @@ Have an idea? Found a bug? See [how to contribute][contributing].
 
 ## :sparkling_heart: Support my projects
 
-I open-source almost everything I can, and I try to reply everyone needing help using these projects. Obviously,
+I open-source almost everything I can, and I try to reply to everyone needing help using these projects. Obviously,
 this takes time. You can integrate and use these projects in your applications *for free*! You can even change the source code and redistribute (even resell it).
 
 However, if you get some profit from this or just want to encourage me to continue creating stuff, there are few ways you can do it:
+
 
  - Starring and sharing the projects you like :rocket:
  - [![Buy me a book][badge_amazon]][amazon]—I love books! I will remember you after years if you buy me one. :grin: :book:
@@ -146,6 +156,7 @@ However, if you get some profit from this or just want to encourage me to contin
  - **Bitcoin**—You can send me bitcoins at this address (or scanning the code below): `1P9BRsmazNQcuyTxEqveUsnf5CERdq35V6`
 
     ![](https://i.imgur.com/z6OQI95.png)
+
 
 Thanks! :heart:
 
@@ -166,6 +177,7 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`bower-license-webpack-plugin`](https://github.com/blattmann/bower-license-webpack-plugin#readme) (by S K)—Outputs licenses from 3rd party libraries to a file
  - [`bowerrc`](https://github.com/mithun/bowerrc#readme) (by Mithun Ayachit)—Switch between different .bowerrc files
  - [`caipi`](https://github.com/CaipiLabs/caipi#readme) (by Nathan Braun)—Caipi reactor - Isomorphic CMS based on ES6+React+webpack+mongo+etc
+ - [`caipi-cli`](https://github.com/CaipiLabs/caipi-cli#readme) (by N8tz)—Caipi cli
  - [`cdnjs-importer`](https://github.com/cdnjs/cdnjs-importer)—Easy way to import a library into CDNJS.
  - [`cecil`](https://github.com/MikeyBurkman/Cecil#readme) (by Michael Burkman)—For running single-file NodeJS scripts with external dependencies
  - [`confetti-cli`](https://github.com/andreamangano/confetti-cli#readme) (by Andrea Mangano)—Command line interface for Confetti, a tool for enriching your online slide decks.
@@ -173,8 +185,10 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`engine-app`](https://github.com/jillix/engine-app#readme) (by jillix)—Engine app related helper functions.
  - [`engine-composition-crud`](https://github.com/jillix/engine-composition-crud#readme) (by jillix)—The default module for creating, reading, updating and deleting Engine instances.
  - [`engine-tools`](https://github.com/jillix/engine-tools) (by jillix)—Engine Tools library and CLI app.
+ - [`envctl`](https://npmjs.com/package/envctl)—analyse current project
  - [`f-watcher`](https://github.com/IonicaBizau/node-fwatcher)—Watch files for changes.
  - [`fie-toolkit-nuke`](https://npmjs.com/package/fie-toolkit-nuke)—基于rax的nuke业务套件，适用于千牛、手淘等移动端weex页面开发
+ - [`fie-toolkit-nuke-test`](https://npmjs.com/package/fie-toolkit-nuke-test)—基于rax的nuke业务套件，适用于千牛、手淘等移动端weex页面开发
  - [`find-file-in-dirs`](https://github.com/IonicaBizau/find-file-in-dirs#readme)—Find a file in different directories.
  - [`firstant2gradle`](https://github.com/FIRST-Team-2557-The-SOTABots/FIRSTAntToGradle#readme) (by Philip Rader)—Automatically converts an Ant build system to Gradle for FIRST Robotics Competition teams
  - [`fontify`](https://github.com/YoussefKababe/fontify#readme) (by Youssef Kababe)—Copy font files from node_modules folder
@@ -203,27 +217,35 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`joomlascan`](https://github.com/robations/joomlascan#readme)—Searches paths for Joomla installations and outputs the installed version number.
  - [`kaomojify`](https://github.com/kokororin/kaomojify#readme) (by kokororin)—Kaomojify Javascript code
  - [`kaomojify-webpack-plugin`](https://github.com/kokororin/kaomojify-webpack-plugin#readme) (by kokororin)—convert your built JavaScript code to Japanese kawaii kaomoji(かわいい顔文字)
- - [`khoom`](https://github.com/CaipiLabs/khoom#readme) (by Nathan Braun)—Khoom - Isomorphic CMS & Framework based on ES6+React+webpack+mongo+etc
  - [`kotori-webpack-plugin`](https://github.com/kokororin/kotori-webpack-plugin#readme) (by kokororin)—Yet another webpack plugin
  - [`le-serf`](https://github.com/1vasari/le-serf#readme) (by Nathan McCallum)—Your trusty assistant in your Lacuna Expanse misadventures!
  - [`low-cli`](https://github.com/lowjs/low-cli#readme) (by Jeremy Rylan)—undefined
  - [`machine-ip`](https://github.com/IonicaBizau/machine-ip#readme)—Update your public ip information in a git repository.
+ - [`mage-module-shard`](https://github.com/mage/mage-module-shard#readme) (by Marc Trudel)—Server-side sharding and broadcasting module for MAGE apps.
  - [`mage-validator`](https://github.com/mage/mage-validator#readme) (by Marc Trudel)—Validation utility for MAGE user commands & topics (TypeScript)
  - [`mage-vaulthelper-couchbase`](https://github.com/mage/mage-vaulthelper-couchbase#readme) (by Marc Trudel)—Helper class to help you deal with accessing a vault's Couchbase backend
+ - [`mage-vaulthelper-mysql`](https://github.com/mage/mage-vaulthelper-mysql#readme) (by Marc Trudel)—MySQL vault backend helper.
  - [`matanza`](https://github.com/fredybawa/matanza#readme) (by Alfredo Monteiro)—Matanza =======
+ - [`megadata`](https://github.com/Wizcorp/megadata#readme) (by Marc Trudel)—Smart messaging for games
  - [`memories`](https://github.com/data-doge/memories#readme) (by data-doge)—cli for a timestamped markdown journal
  - [`minecraft-manager`](https://github.com/XGHeaven/minecraft-manager#readme) (by XGHeaven)—a minecraft server manager with web gui just for vanilla minecraft server
  - [`minipod`](https://github.com/DonYang/minipod#readme) (by DonYang)—Customize cocoapods specs for just you need.
+ - [`my613-cli`](https://github.com/planeight/my613-cli#readme) (by My613)—CLI interface for My613
+ - [`no-one-left-behind`](https://github.com/Zalastax/no-one-left-behind#readme)—Every package is invited
  - [`node-dynamo`](https://github.com/louislarry/node-dynamo#readme) (by Louis Larry)—Easily create and recreate dynamodb tables and sample data. This package provides the cli and sdk.
- - [`node-sass-js-importer`](https://github.com/Loilo/node-sass-js-importer#readme)—Allows importing CommonJS modules in Sass files parsed by node-sass.
  - [`node-sass-json-importer`](https://github.com/Updater/node-sass-json-importer#readme)—Allows importing json in sass files parsed by node-sass.
- - [`node-sass-yaml-importer`](https://github.com/Loilo/node-sass-yaml-importer#readme)—Allows importing YAML in sass files parsed by node-sass.
  - [`npm-interlink`](https://github.com/orlin/npm-interlink#readme) (by Orlin M Bozhinov)—because `npm link ...` can be tedious
  - [`obj2env-cli`](https://github.com/Bloggify/obj2env-cli#readme) (by Bloggify)—Create .env files in your terminal.
  - [`panes`](https://github.com/joelchu/panes#readme) (by Joel Chu)—PANES.JS core lib and cli http://panesjs.com
  - [`parent-search`](https://github.com/IonicaBizau/node-parent-search)—Search files and folders in parent directories.
  - [`payname`](https://npmjs.com/package/payname) (by Florian CHEVALLIER)—Module nodejs permettant d'intégrer Payname à vos projets
  - [`ramda-cli`](https://github.com/raine/ramda-cli#readme) (by Raine Virta)—A command-line tool for processing JSON with Ramda and LiveScript
+ - [`rc-ts-scripts`](https://npmjs.com/package/rc-ts-scripts)—Configuration and scripts for Create React App.
+ - [`rc-ts-tools`](https://npmjs.com/package/rc-ts-tools)—Configuration and scripts for Create React App.
+ - [`react-scripts-pro`](https://npmjs.com/package/react-scripts-pro)—Configuration and scripts for Create React App.
+ - [`react-scripts-pro6`](https://npmjs.com/package/react-scripts-pro6)—Configuration and scripts for Create React App.
+ - [`react-scripts-pro7`](https://npmjs.com/package/react-scripts-pro7)—Configuration and scripts for Create React App.
+ - [`react-scripts-pro8`](https://npmjs.com/package/react-scripts-pro8)—Configuration and scripts for Create React App.
  - [`reindex-cli`](https://github.com/reindexio/reindex-cli#readme) (by Reindex)—CLI interface for Reindex
  - [`safe-file-write`](https://github.com/scorchpt/safe-file-write#readme) (by Pedro M. Silva)—Write to a file, making sure it's parent folders exist, and that if the write operation is cancelled mid-writing, it does not corrupt any possible file there previously.
  - [`singular_sake`](https://npmjs.com/package/singular_sake) (by Juan Castro Fernández)—Singular MVC PHP Framework command line tool
@@ -232,6 +254,7 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`tester-init`](https://github.com/IonicaBizau/tester-init#readme)—Init tests for tester.
  - [`tilda-init`](https://github.com/IonicaBizau/tilda-init#readme)—Init cli applications.
  - [`tithe`](https://github.com/IonicaBizau/tithe)—Organize and track the tithe payments.
+ - [`typed-css-interfaces`](https://github.com/samwaters/typed-css-modules#readme) (by quramy)—Creates .d.ts files with interface definitions from .css files
  - [`typed-css-modules`](https://github.com/Quramy/typed-css-modules#readme) (by quramy)—Creates .d.ts files from CSS Modules .css files
  - [`unity-asset-sync`](https://npmjs.com/package/unity-asset-sync) (by Chris Jaynes)—Allows safe, effective sharing of code between Unity projects.
  - [`unity-link`](https://npmjs.com/package/unity-link) (by Chris Jaynes)—A utility for Unity developers to symlink scripts into their Assets folders. Useful for library development.
@@ -244,6 +267,7 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`viur-ignite-icons`](https://github.com/viur-ignite/viur-ignite-icons#readme) (by VIUR)—Icon libary | Extension of viur-ignite-css
  - [`viur-ignite-js`](https://github.com/viur-ignite/viur-ignite-js#readme) (by VIUR)—Javascript Libary | Extension of viur-ignite-css
  - [`web-term`](https://github.com/IonicaBizau/web-term)—A full screen terminal in your browser.
+ - [`wlink`](https://github.com/najeal/wlink#readme)—Replaces npm link with something that actually works!
  - [`wml`](https://github.com/wix/wml#readme) (by dutzi)—Replaces npm link with something that actually works!
  - [`zow`](https://github.com/zowley/zow#readme) (by Jeremy Rylan)—undefined
 
@@ -251,14 +275,15 @@ If you are using this library in one of your projects, add it in this list. :spa
 
 [MIT][license] © [Ionică Bizău][website]
 
-[badge_patreon]: http://ionicabizau.github.io/badges/patreon.svg
-[badge_amazon]: http://ionicabizau.github.io/badges/amazon.svg
-[badge_paypal]: http://ionicabizau.github.io/badges/paypal.svg
-[badge_paypal_donate]: http://ionicabizau.github.io/badges/paypal_donate.svg
+
+[badge_patreon]: https://ionicabizau.github.io/badges/patreon.svg
+[badge_amazon]: https://ionicabizau.github.io/badges/amazon.svg
+[badge_paypal]: https://ionicabizau.github.io/badges/paypal.svg
+[badge_paypal_donate]: https://ionicabizau.github.io/badges/paypal_donate.svg
+
 [patreon]: https://www.patreon.com/ionicabizau
 [amazon]: http://amzn.eu/hRo9sIZ
 [paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
-[donate-now]: http://i.imgur.com/6cMbHOC.png
 
 [license]: http://showalicense.com/?fullname=Ionic%C4%83%20Biz%C4%83u%20%3Cbizauionica%40gmail.com%3E%20(https%3A%2F%2Fionicabizau.net)&year=2015#license-mit
 [website]: https://ionicabizau.net
