@@ -17,7 +17,7 @@ function, the function will run synchronously and return the value.
 - **isThere|Boolean** The `isThere` function if the `callback` parameter was provided, otherwise a boolean value indicating if the file/directory
 exists or not.
 
-### `directory(path, callback)`
+### `isThere.directory(path, callback)`
 Checks if the path exists and it is a directory.
 
 #### Params
@@ -29,7 +29,7 @@ function, the function will run synchronously and return the value.
 #### Return
 - **isThere|Boolean** The `isThere` function if the `callback` parameter was provided, otherwise a boolean value indicating if the directory exists or not.
 
-### `file(path, callback)`
+### `isThere.file(path, callback)`
 Check if the path exists and it is a file.
 
 #### Params
@@ -40,4 +40,13 @@ function, the function will run synchronously and return the value.
 
 #### Return
 - **isThere|Boolean** The `isThere` function if the `callback` parameter was provided, otherwise a boolean value indicating if the file exists or not.
+
+### `isThere.promises()`
+The promises interface.
+
+It exports the following methods:
+
+   - `isThere.promises.exists`
+   - `isThere.promises.file`
+   - `isThere.promises.directory`
 
