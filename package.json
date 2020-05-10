@@ -1,6 +1,6 @@
 {
   "name": "is-there",
-  "version": "4.4.4",
+  "version": "4.4.5",
   "description": "Check if a file or directory exists in a given path.",
   "main": "lib/index.js",
   "directories": {
@@ -31,7 +31,7 @@
   "homepage": "https://github.com/IonicaBizau/node-is-there",
   "dependencies": {},
   "devDependencies": {
-    "mocha": "^2.2.4"
+    "mocha": "^7.1.2"
   },
   "blah": {
     "h_img": "http://i.imgur.com/ZHzpvvE.png",

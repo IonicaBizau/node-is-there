@@ -1,40 +1,18 @@
-// Dependencies
-var IsThere = require("../lib");
-
-// Paths to test
-var paths = [
-    // exist
-    "dir"
-  , "dir/another"
-  , "dir/another/file"
-  , "dir/file"
-  , "file"
-  , "file.ext"
-    // don't exist
-  , "foo"
-  , "foo/bar"
-  , "foo.bar"
-  , "foo/bar.foo"
-].map(function (c) {
-    return __dirname + "/contents/" + c;
-});
+const IsThere = require("../lib");
 
 // Sync
-console.log("> Testing sync method.");
-paths.forEach(function (c) {
-    console.log("> %s %s", c, IsThere(c) ? "exists" : "doesn't exist");
-});
+console.log(IsThere(`${__dirname}/contents/file`))
+// => true
+console.log(IsThere.directory(`${__dirname}/contents/dir`))
 
+// Callback
+IsThere.file(`${__dirname}/contents/not_found`, exists => {
+    console.log(exists)
+    // => false
+})
 
-console.log("> Testing async method.");
-function doSeq(i) {
-    i = i || 0;
-    var cPath = paths[i];
-    if (!cPath) { return; }
-    IsThere(cPath, function (exists) {
-        console.log("> %s %s", cPath, exists ? "exists" : "doesn't exist");
-        doSeq(i + 1);
-    });
-}
-
-doSeq();
+// Promises
+IsThere.promises.directory(`${__dirname}/contents/dir`).then(exists => {
+    console.log(exists)
+    // => true
+}).catch(console.error)
