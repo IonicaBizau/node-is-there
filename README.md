@@ -21,7 +21,7 @@
 
 # is-there
 
- [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Travis](https://img.shields.io/travis/IonicaBizau/node-is-there.svg)](https://travis-ci.org/IonicaBizau/node-is-there/) [![Version](https://img.shields.io/npm/v/is-there.svg)](https://www.npmjs.com/package/is-there) [![Downloads](https://img.shields.io/npm/dt/is-there.svg)](https://www.npmjs.com/package/is-there) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+ [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Travis](https://img.shields.io/travis/IonicaBizau/node-is-there.svg)](https://travis-ci.org/IonicaBizau/node-is-there/) [![Version](https://img.shields.io/npm/v/is-there.svg)](https://www.npmjs.com/package/is-there) [![Downloads](https://img.shields.io/npm/dt/is-there.svg)](https://www.npmjs.com/package/is-there) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/@johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 <a href="https://www.buymeacoffee.com/H96WwChMy" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee"></a>
 
@@ -117,6 +117,7 @@ IsThere.promises.directory(`${__dirname}/contents/dir`).then(exists => {
 
 
 
+
 ## :question: Get Help
 
 There are few ways to get help:
@@ -126,6 +127,8 @@ There are few ways to get help:
  1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
  2. For bug reports and feature requests, open issues. :bug:
  3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
+
 
 
 
@@ -235,134 +238,145 @@ Thanks! :heart:
 ## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - `typed-css-modules`
- - `node-sass-json-importer`
- - `ajs`
- - `be-goods`
- - `parent-search`
- - `sourcegate`
- - `fwatcher`
- - `ali-oss-extra`
- - `find-file-in-dirs`
- - `gulp-common-build-tasks`
+ - `@abendi/typed-css-modules`
+ - `@beisen/typed-css-modules`
+ - `@ceoimon/typed-css-modules`
+ - `@computerrock/node-sass-json-importer`
+ - `@dasilvacontin/clothes`
+ - `@density/node-sass-json-importer`
+ - `@fiovex/typed-css-modules`
+ - `@groooves/typed-css-modules`
+ - `@indigotree/dart-sass-json-importer`
+ - `@isysd/gpm`
+ - `@miriamjs/wml`
+ - `@mizdra/typed-css-modules`
+ - `@mtsmfm/node-sass-json-importer`
+ - `@onenexus/synergy-sass-importer`
+ - `@raydeck/wml`
+ - `@skbkontur/typed-css-modules`
+ - `@spernigotti/node-sass-json-importer`
  - `a-csv`
+ - `ajs`
+ - `ali-oss-extra`
+ - `artstack-downloader`
+ - `be-goods`
+ - `better-history`
+ - `bible`
  - `bible.js`
- - `fie-toolkit-nuke`
+ - `blah`
+ - `bloggify`
  - `bloggify-actions`
- - `wml`
- - `git-stats`
- - `sp-load`
- - `engine-tools`
- - `hal-rc`
- - `engine-composition-crud`
- - `kaomojify`
- - `hg-plus`
- - `friendly-typed-css-modules`
- - `safe-file-write`
- - `no-one-left-behind`
+ - `bloggify-cli`
+ - `bower-license-webpack-plugin`
+ - `bowerrc`
  - `caipi`
+ - `caipi-cli`
+ - `cdnjs-importer`
+ - `cecil`
+ - `confetti-cli`
+ - `dryduck`
+ - `emartech-node-sass-json-importer`
+ - `engine-app`
+ - `engine-composition-crud`
+ - `engine-tools`
+ - `envctl`
+ - `f-watcher`
+ - `fie-toolkit-nuke`
+ - `fie-toolkit-nuke-test`
+ - `find-file-in-dirs`
+ - `firstant2gradle`
+ - `fontify`
+ - `friendly-typed-css-modules`
+ - `fwatcher`
+ - `gd-cli`
+ - `generator-arwen`
+ - `generator-atomus`
+ - `generator-catena`
+ - `generator-catena-angular-meteor-bootstrap`
+ - `generator-catena-angular-meteor-material`
+ - `generator-leptir`
+ - `generator-leptir-angular-bootstrap`
+ - `generator-leptir-angular-material`
+ - `gif-cli`
+ - `git-issues`
+ - `git-stats`
+ - `git-stats-importer`
+ - `gpm`
+ - `grunt-md5symlink`
+ - `gulp-app-build-tasks`
+ - `gulp-common-build-tasks`
+ - `hakka-plugin-typed-css-modules`
+ - `hal-rc`
+ - `heroku-container-tools`
+ - `heroku-docker`
+ - `hg-plus`
+ - `idea`
+ - `image-to-ascii-cli`
+ - `is-git-check`
+ - `jisc_build`
+ - `joomlascan`
+ - `kaomojify`
+ - `kaomojify-webpack-plugin`
  - `khoom`
+ - `kotori-webpack-plugin`
+ - `le-serf`
+ - `machine-ip`
+ - `mage-module-shard`
+ - `mage-validator`
+ - `mage-vaulthelper-couchbase`
+ - `mage-vaulthelper-mysql`
+ - `matanza`
+ - `megadata`
+ - `memories`
+ - `merry-plugin-typed-css-modules`
+ - `minecraft-manager`
+ - `minipod`
+ - `moneysavegb`
+ - `mtsl`
+ - `my613-cli`
+ - `node-sass-json-importer`
+ - `node-sass-token-importer`
+ - `npm-interlink`
+ - `obj2env-cli`
+ - `parent-search`
+ - `pawpy`
+ - `payname`
+ - `ramda-cli`
  - `rc-ts-scripts`
  - `rc-ts-tools`
  - `react-scripts-pro`
- - `fie-toolkit-nuke-test`
- - `generator-arwen`
- - `caipi-cli`
- - `@density/node-sass-json-importer`
- - `@beisen/typed-css-modules`
- - `web-term`
- - `@onenexus/synergy-sass-importer`
- - `is-git-check`
- - `@raydeck/wml`
- - `@skbkontur/typed-css-modules`
- - `blah`
- - `gif-cli`
- - `kotori-webpack-plugin`
- - `minipod`
- - `bower-license-webpack-plugin`
- - `cecil`
- - `confetti-cli`
- - `firstant2gradle`
- - `generator-catena`
- - `generator-catena-angular-meteor-bootstrap`
- - `generator-leptir-angular-material`
- - `generator-leptir-angular-bootstrap`
- - `generator-leptir`
- - `generator-catena-angular-meteor-material`
- - `better-history`
- - `memories`
- - `matanza`
- - `minecraft-manager`
- - `bible`
- - `mage-vaulthelper-couchbase`
- - `gd-cli`
- - `envctl`
- - `obj2env-cli`
- - `fontify`
- - `low-cli`
- - `payname`
- - `f-watcher`
- - `bowerrc`
- - `singular_sake`
- - `uturi-caching`
- - `emartech-node-sass-json-importer`
- - `valkyrja`
- - `unity-asset-sync`
- - `engine-app`
- - `npm-interlink`
- - `panes`
- - `reindex-cli`
- - `generator-atomus`
- - `@dasilvacontin/clothes`
- - `jisc_build`
- - `le-serf`
  - `react-scripts-pro6`
  - `react-scripts-pro7`
  - `react-scripts-pro8`
- - `valkctl`
- - `@spernigotti/node-sass-json-importer`
- - `joomlascan`
- - `@miriamjs/wml`
- - `typed-css-interfaces`
- - `@mtsmfm/node-sass-json-importer`
- - `megadata`
- - `mage-module-shard`
- - `mage-vaulthelper-mysql`
- - `wlink`
- - `viur-ignite-css`
- - `viur-ignite-icons`
- - `viur-ignite-html`
- - `viur-ignite-js`
- - `my613-cli`
- - `tithe`
+ - `reindex-cli`
+ - `safe-file-write`
+ - `singular_sake`
+ - `sourcegate`
+ - `sp-load`
  - `tester-init`
  - `tilda-init`
- - `grunt-md5symlink`
- - `cdnjs-importer`
- - `@loomble/cli`
- - `mage-validator`
- - `wmls`
- - `@isysd/gpm`
- - `hakka-plugin-typed-css-modules`
- - `merry-plugin-typed-css-modules`
- - `ramda-cli`
- - `heroku-docker`
- - `heroku-container-tools`
+ - `tithe`
+ - `ts-css-module`
+ - `typed-css-interfaces`
+ - `typed-css-modules`
  - `typed-css-modules-babel`
- - `@ceoimon/typed-css-modules`
- - `kaomojify-webpack-plugin`
  - `typed-css-modules-fork`
+ - `typed-css-modules-lf`
+ - `unity-asset-sync`
+ - `unity-link`
+ - `uturi-caching`
+ - `valkctl`
+ - `valkyrja`
+ - `viur-ignite-css`
+ - `viur-ignite-html`
+ - `viur-ignite-icons`
+ - `viur-ignite-js`
  - `watchwoman`
  - `watchwomen`
- - `@computerrock/node-sass-json-importer`
- - `mtsl`
- - `artstack-downloader`
- - `git-stats-importer`
- - `gpm`
- - `idea`
- - `image-to-ascii-cli`
- - `machine-ip`
- - `git-issues`
+ - `web-term`
+ - `wlink`
+ - `wml`
+ - `wmls`
 
 
 

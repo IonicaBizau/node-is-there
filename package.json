@@ -1,6 +1,6 @@
 {
   "name": "is-there",
-  "version": "4.5.1",
+  "version": "4.5.2",
   "description": "Check if a file or directory exists in a given path.",
   "main": "lib/index.js",
   "directories": {
@@ -63,6 +63,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
